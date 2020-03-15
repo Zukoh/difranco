@@ -19,7 +19,7 @@
 
 .neon-text {
   font-family: 'Orbitron', sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
   color: var(--color3);
@@ -29,7 +29,6 @@
 
 .neon-wrapper {
   border: solid 2px var(--color3);
-  margin-top: 20px;
   border-radius: 10px;
   animation: border-glow 5s linear forwards; }
 
