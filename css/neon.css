@@ -1,0 +1,65 @@
+:root{
+  --color1:#7753f8;
+  --color2:#3c6abe;
+  --color3:#1d60ad;
+}
+
+
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  margin-left: 15px;
+  overflow: hidden;
+  
+  background-size: cover; }
+
+.neon-text {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--color3);
+  padding: 0 1.5rem 0 1.5rem;
+  letter-spacing: 4.5px;
+  animation: text-glow 5s linear infinite; }
+
+.neon-wrapper {
+  border: solid 2px var(--color3);
+  margin-top: 20px;
+  border-radius: 10px;
+  animation: border-glow 5s linear forwards; }
+
+@keyframes text-glow {
+  0% {
+    text-shadow: none; }
+  15% {
+    text-shadow: 0.1vw 0vw 0.25vw var(--color3), 0.4vw 0vw 0.25vw var(--color3), 0.1vw 0vw 0vw var(--color2), 0.1vw 0vw 0.1vw var(--color2), 0.2vw 0vw 0.1vw var(--color2), 0.4vw 0vw 0.1vw var(--color2), 0.1vw 0vw 2vw var(--color2), 0.2vw 0vw 2vw var(--color2), 0.4vw 0vw 2vw var(--color2), 0.1vw 0vw 1vw var(--color1), 0.2vw 0vw 1vw var(--color1), 0.4vw 0vw 5vw var(--color1), 0.1vw 0vw 5vw var(--color1), 0.2vw 0vw 20vw var(--color1), 0.4vw 0vw 10vw var(--color1), 0.1vw 0vw 10vw var(--color1), 0.2vw 0vw 30vw var(--color1), 0.4vw 0vw 10vw var(--color1); }
+  17% {
+    text-shadow: none; }
+  19% {
+    text-shadow: 0.1vw 0vw 0.25vw var(--color3), 0.4vw 0vw 0.25vw var(--color3), 0.1vw 0vw 0vw var(--color2), , 0.1vw 0vw 0.1vw var(--color2), 0.2vw 0vw 0.1vw var(--color2), 0.4vw 0vw 0.1vw var(--color2), 0.1vw 0vw 2vw var(--color2), 0.2vw 0vw 2vw var(--color2), 0.4vw 0vw 2vw var(--color2), 0.1vw 0vw 1vw var(--color1), 0.2vw 0vw 1vw var(--color1), 0.4vw 0vw 5vw var(--color1), 0.1vw 0vw 5vw var(--color1), 0.2vw 0vw 20vw var(--color1), 0.4vw 0vw 10vw var(--color1), 0.1vw 0vw 10vw var(--color1), 0.2vw 0vw 30vw var(--color1), 0.4vw 0vw 10vw var(--color1); }
+  50% {
+    text-shadow: none; }
+  55% {
+    text-shadow: 0.1vw 0vw 0.25vw var(--color3), 0.2vw 0vw 0.25vw var(--color3), 0.4vw 0vw 0.25vw var(--color3), 0.1vw 0vw 0vw var(--color2), 
+    0.2vw 0vw 0vw var(--color2), 0.4vw 0vw 0vw var(--color2), 0.1vw 0vw 0.1vw var(--color2), 0.2vw 0vw 0.1vw var(--color2), 0.4vw 0vw 0.1vw var(--color2), 
+    0.1vw 0vw 2vw var(--color2), 0.2vw 0vw 2vw var(--color2), 0.4vw 0vw 2vw var(--color2), 0.1vw 0vw 1vw var(--color1), 0.2vw 0vw 1vw var(--color1),
+     0.4vw 0vw 5vw var(--color1), 0.1vw 0vw 5vw var(--color1), 0.2vw 0vw 20vw var(--color1), 0.4vw 0vw 10vw var(--color1), 0.1vw 0vw 10vw var(--color1),
+      0.2vw 0vw 30vw var(--color1), 0.4vw 0vw 10vw var(--color1); }
+  100% {
+    text-shadow: none; }
+  
+     }
+@keyframes border-glow {
+  0% {
+    box-shadow: none; }
+ 
+  100% {
+    box-shadow: none; }
+
+/*# sourceMappingURL=neon.css.map */
+
