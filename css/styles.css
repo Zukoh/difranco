@@ -22,8 +22,15 @@ Colores: */
     scroll-behavior: smooth;
    
 }
+body{
+    background: url(../img/FondoGRAL.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
 #home{
-    background: url(../img/Nuevofondo/Fondo-01.jpg);
+    /*background: url(../img/Nuevofondo/Fondo-01.jpg); */
    
     height: 100vh;
     background-size: cover;
@@ -164,8 +171,8 @@ li img{
 .doker{
     height: 200px;
     width: 640px;
-    margin-top: -120px;
-    margin-left:50px;
+    margin-top: -210px;
+    margin-left:150px;
     
     overflow: hidden;
     display: flex;
@@ -189,9 +196,10 @@ li img{
 
 
 .neumaticos img{
-    height: 250px;
-    margin-top: 300px;
-    margin-left: 700px;
+    height: 330px;
+    margin-top: 460px;
+    margin-left: 1170px;
+    visibility: hidden;
 
 }
 
@@ -209,7 +217,7 @@ section{
 #productos {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
-    color:#000;
+    
     margin: 0;
     padding: 0;
     
@@ -220,21 +228,18 @@ section{
     font-size: 30px;
     color: #fff;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 170px;
     font-family: 'Orbitron', sans-serif;
   }
 
-.pirelli{
-    margin-top: 20px;
-   text-align: center;
-}
+
 
   .swiper-container {
     margin: 0;
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 80px;
+    margin-top: 180px;
    
   }
   .swiper-slide {
@@ -329,211 +334,6 @@ a{
 
 
 /* Vistas ---  */ 
-@media (min-width:475px){
-    .title-prod{
-        font-size: 22px;
-        margin-top: 410px;
-        color: black;
-    }
-
-    .pirelli img{
-        height: 55px;
-        width: 150px;
-        opacity: 0.7;
-        border-radius: 5px;
-        margin-top: 10px;
-    }
-
-    .swiper-container {
-        margin: 0;
-        width: 100%;
-        padding-top: 50px;
-        padding-bottom: 50px;
-      }
-
-      .neon-wrapper2{
-        
-        margin-top: 0;
-    }
-    .neon-text2 {
-        font-family: 'Orbitron', sans-serif;
-        font-size: 14px;
-        font-weight: bold;
-        text-align: center;
-        color: var(--color3);
-        padding: 0 0.6rem 0 0.6rem;
-        letter-spacing: 0.5px;
-        overflow: hidden;
-        margin-bottom:30px;
-      }
-
-      .meli img{
-        height: 25px;
-        width: 25px;
-        margin-top: 20px;
-        margin-bottom: -8px;
-        margin-left: 18px;
-        overflow: hidden;
-
-}
-}
-
-@media (min-width:1200px){
-    #productos{
-        background-position: cover;
-        height: 100%;
-    }
-    .tablero{
-        opacity: 0.9;
-    }
-
-    .title-prod{
-        font-size: 28px;
-        margin-top: 210px;
-        margin-left: 380px;
-        color: black;
-        letter-spacing: 1.5px;
-    }
-    .pirelli img{
-        height: 65px;
-        width: 250px;
-        opacity: 0.7;
-        border-radius: 5px;
-        margin-top: 10px;
-        margin-left: 380px;
-    }
-
-    .swiper-container {
-        margin-top: 20px;
-        width: 100%;
-        padding-top: 50px;
-        padding-bottom: 50px;
-      }
-    
-      .wrapper2 {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        height: 180px;
-        width: 100%;
-        margin-left: 15px;
-        overflow: hidden;
-        
-        background-size: cover; }
-      
-      .neon-text2 {
-        font-family: 'Orbitron', sans-serif;
-        font-size: 24px;
-        font-weight: bold;
-        text-align: center;
-        color: var(--color3);
-        padding: 0 1.2rem 0 1.2rem;
-        letter-spacing: 1.5px;
-        overflow: hidden;
-        margin-bottom:30px;
-      }
-      
-      .neon-wrapper2{
-        border: solid 2px var(--color3);
-        margin-top: 20px;
-        border-radius: 10px;
-        animation: border-glow 5s linear forwards; 
-        overflow: hidden;
-    }
-    a{
-        text-decoration: none;
-        list-style: none;
-        color: inherit;
-    }
-    .meli img{
-            height: 45px;
-            width: 45px;
-            margin-top: 22px;
-            margin-bottom: -11px;
-            margin-left: 22px;
-            overflow: hidden;
-    
-    }
-    
-}
-
-@media (min-width:1700px){
-    #productos{
-        background-position: cover;
-        height: 100%;
-    }
-    .tablero{
-        opacity: 0.8;
-    }
-
-    .title-prod{
-        font-size: 28px;
-        margin-top: 180px;
-        margin-left: 80px;
-        color: black;
-        letter-spacing: 1.5px;
-    }
-    .pirelli img{
-        height: 65px;
-        width: 250px;
-        opacity: 0.7;
-        border-radius: 5px;
-        margin-top: 10px;
-        margin-left: 80px;
-    }
-
-    .swiper-container {
-        margin-top: 80px;
-        width: 100%;
-        padding-top: 50px;
-        padding-bottom: 50px;
-      }
-    
-      .wrapper2 {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        height: 180px;
-        width: 100%;
-        margin-left: 15px;
-        overflow: hidden;
-        
-        background-size: cover; }
-      
-      .neon-text2 {
-        font-family: 'Orbitron', sans-serif;
-        font-size: 24px;
-        font-weight: bold;
-        text-align: center;
-        color: var(--color3);
-        padding: 0 1.2rem 0 1.2rem;
-        letter-spacing: 1.5px;
-        overflow: hidden;
-        margin-bottom:30px;
-      }
-      
-      .neon-wrapper2{
-        border: solid 2px var(--color3);
-        margin-top: 20px;
-        border-radius: 10px;
-        animation: border-glow 5s linear forwards; 
-        overflow: hidden;
-    }
-    a{
-        text-decoration: none;
-        list-style: none;
-        color: inherit;
-    }
-    .meli img{
-            height: 45px;
-            width: 45px;
-            margin-top: 22px;
-            margin-bottom: -11px;
-            margin-left: 22px;
-            overflow: hidden;
-    
-    }
-}
 
 
 /* ***************************** Seccion Servicios ************** */
@@ -587,8 +387,8 @@ a{
 
 
 .wrap{
-    width: 800px;
-    height: 800px;
+    width: 700px;
+    height: 700px;
     
     border-radius: 50%;
 	margin-bottom: 130px;
@@ -607,8 +407,8 @@ a{
     font-family: 'Orbitron';
     letter-spacing: 2.5px;
     text-shadow: 0 0 20px #563fd8;
-    margin-top: 320px;
-    margin-left: 190px;
+    margin-top: 210px;
+    margin-left: 125px;
     
     display: inline-block;
     
@@ -621,8 +421,8 @@ a{
 }
 
 .tarjeta{
-	width: 800px;
-    height: 800px;
+	width: 700px;
+    height: 700px;
    
     margin-left: 20px;
     border-radius: 50%;
@@ -678,7 +478,7 @@ a{
 }
 
 .atras h6{
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 120px;
     margin-left: 90px;
     margin-right: 90px;
@@ -687,7 +487,7 @@ a{
 }
 
 .atras h5{
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 20px;
     margin-left: 90px;
     margin-right: 90px;
@@ -696,7 +496,7 @@ a{
 }
 
 .atras p{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     margin-top: 20px;
     margin-left: 90px;
@@ -708,8 +508,8 @@ a{
     display: flex;
     width: 430px;
     
-    margin-left: 180px;
-    margin-top: 30px;
+    margin-left: 130px;
+    margin-top: 40px;
     justify-content: space-between;
    
 }
@@ -799,9 +599,9 @@ a{
 /* ************************************** Seccion consejos ****************************************** */
 
 #consejos{
-    background:url(../img/consejos/fondoconsejo.jpg);
+  /*  background:url(../img/consejos/fondoconsejo.jpg);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom;*/
     
 }
 
@@ -910,6 +710,7 @@ a{
 .contact-container{
     width: 80%;
     padding: 20px;
+    margin-top: -10px;
 }
 
 .contact-container h2{
@@ -1036,7 +837,9 @@ input[type="submit"] {
     display: block;
     width: 100%;
     text-align: center;
-    margin-top: -80px;
+    margin-top: -55px;
+    
+    
 }
 .titulo-contacto{
     margin-top: 50px;
@@ -1045,7 +848,7 @@ input[type="submit"] {
 
 footer{
     
-    color: #fff;
+    color: black;
     font-size: 18px;
     height: 10px;
     text-align: center;
@@ -1053,7 +856,8 @@ footer{
     justify-content: center;
     align-items: center;
     font-family: 'Roboto' , sans-serif;
-    margin-bottom: -15px;
+    margin-bottom:  15px;
+    
 }
 
 
@@ -1081,7 +885,7 @@ footer{
 
 
 /********************************* CHRISTIAN PROBA ACAAAA  *************************************************************************** */
-
+/*
 #contacto{
     background: url(../img/fondocontacto.jpg);
     background-repeat: no-repeat;
@@ -1111,3 +915,4 @@ background-size: cover;
     background-position: center;
     background-size: cover;
 }
+*/
