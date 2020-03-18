@@ -892,7 +892,8 @@ footer{
         background:url(../IMW/Haciendo-Historia-WebCel--04.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 320px;
+        background-position: center;
+        height: 520px;
     }
 
     #consejos{
@@ -1153,6 +1154,28 @@ color: white;
 
 .tarjeta-wrap:hover .tarjeta{
     display: none;
+}
+
+
+
+.aver{
+    display: block;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    height: 80%;
+    width: 90%;
+    color: white;
+   
+    flex-wrap: wrap;
+    margin-top: 25px;
+    letter-spacing: 1.1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pinfo {
+    font-size: 15px;
+    opacity: 0.5;
 }
 
 
