@@ -23,16 +23,16 @@ Colores: */
    
 }
 body{
-    background: url(../img/FondoGRAL.jpg);
+    /*background: url(../img/FondoGRAL.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain;*/
 }
 
 
 #home{
     /*background: url(../img/Nuevofondo/Fondo-01.jpg); */
    
-    height: 100vh;
+   
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
@@ -209,7 +209,7 @@ li img{
 /* *********************** MANEJO DE SECCIONES ********************************** */
 
 section{
-    min-height: 100vh;
+    
     overflow-x: hidden;
 }
 
@@ -333,7 +333,7 @@ a{
 }
 
 
-/* Vistas ---  */ 
+
 
 
 /* ***************************** Seccion Servicios ************** */
@@ -863,103 +863,276 @@ footer{
 
 /* ********************************************************** VISTAS **************************************************************** */
 
-@media (min-width:300px){
+
+@media (min-width:220px){
+    #home{
+        background: url(../IMW/Fondo-01.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    #productos{
+        background: url(../IMW/Productos---WebCel--02l.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 240px;
+    }
+
+    #servicios{
+        background: url(../IMW/Servicios--WebCel--03.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 180px;
+    }
+
+    #historia{
+        background:url(../IMW/Haciendo-Historia-WebCel--04.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 320px;
+    }
+
+    #consejos{
+        background: url(../IMW/Consejos-WebCel--05.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        height: 280px;
+    }
     
-    /* ------Saque el tablero y puse los botones en el lugar---- */
     .tablero{
-            display: none;
-    }
-    
-    .icon-Iso-Blanco{
-        z-index: 1000;
-        position: absolute;
-        left: 2px;
-        top: 10px;
-        font-size: 25px;
-        color: rgb(0, 0, 0);    
-    }
+        display: none;
+}
 
-    .volante img{
-        height: 35px;
-        z-index: 1000;
-        position: absolute;
-        left: 2px; 
-        top: 50px;
-    }
+.icon-Iso-Blanco{
+    z-index: 1000;
+    position: absolute;
+    left: 2px;
+    top: 10px;
+    font-size: 10px;
+    color: rgb(0, 0, 0); 
     
-    
-    .rueda img{
-        height: 35px;
-        z-index: 1000;
-        position: absolute;
-        left: 2px;
-        top: 100px;
-    }
-    
-    .ubicacion img{
-        height: 35px;
-        z-index: 1000;
-        position: absolute;
-        left: 2px;
-        top: 150px;
-    }
+}
+.volante img{
+    height: 18px;
+    z-index: 1000;
+    position: absolute;
+    left: 2px; 
+    top: 30px;
+}
 
-    .iconos{
-        /*display: none;  --Para ocultar iconos.  */
-    }
+
+.rueda img{
+    height: 18px;
+    z-index: 1000;
+    position: absolute;
+    left: 2px;
+    top: 60px;
+}
+
+.ubicacion img{
+    height: 18px;
+    z-index: 1000;
+    position: absolute;
+    left: 2px;
+    top: 90px;
+}
+
+.iconos{
+    /*display: none;  --Para ocultar iconos.  */
+}
 
 /* -------------------Difranco SLOGAN------------------------ */
 .doker{
-    height: 200px;
-    width: 300px;
-    margin-top: -690px;
-   margin-left: 5px;
-    overflow: hidden;
-    display: flex;
-    
-    align-items:center;
+height: 200px;
+width: 300px;
+margin-top: -750px;
+margin-left: -55px;
+overflow: hidden;
+display: flex;
+align-items:center;
 }
 .neon-text {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    color: var(--color3);
-    padding: 0 1rem 0 1rem;
-    letter-spacing: 1.5px;
-    animation: text-glow 5s linear infinite; }
+font-family: 'Orbitron', sans-serif;
+font-size: 6px;
+font-weight: bold;
+text-align: center;
+color: var(--color3);
+padding: 0 0.4rem 0 0.4rem;
+letter-spacing: 1.2px;
+animation: text-glow 5s linear infinite;
 }
+
 .slogan{
-    font-size: 8px;
-    color: white;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: bold;
-    margin-left: 15px;   
+font-size: 5px;
+color: white;
+font-family: 'Orbitron', sans-serif;
+font-weight: bold;
+margin-left: 6px;
+margin-top: 2px;   
 }
 
 /* --------------------Productos------------ */
 
 .title-prod{
-    z-index: 400;
-    font-size: 30px;
-    color: #fff;
-    text-align: center;
-    margin-top: 170px;
-    font-family: 'Orbitron', sans-serif;
-  }
+display: none;
+}
 
 
 
-  .swiper-container {
-    margin: 0;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: 180px;
+.swiper-container {
+display: none;
+
+}
+
+
+.swiper-slide {
+display: none;
+}
+
+
+
+.neon-text2 {
+    display: none;
+}
+
+.neon-wrapper2{
+    display: none;
+}
+
+.meli img{
+display: none;
+
+}
+
+.neon-wrapper2:hover{
+cursor: pointer;
+background: black; 
+color: white;
+}
+
+.title-cel{
+    color: white;
+
+}
+
+
+/* ---------------------------- HISTORIA ----------------------------- */
+
+.wrap{
+   display: none;
+}
+.cartel{
+  display: none;
+    
+}
+
+.tarjeta-wrap{
+	display: none;
+}
+
+.tarjeta{
+    display: none;
+}
+
+.adelante, .atras{
+    display: none;
+}
+
+.adelante{
+    display: none;
+}
+
+.atras{
+    display: none;
+}
+
+.atras h6{
+    display: none;
+}
+
+
+.logos{
+    display: none;
    
-  }
+}
+
+.tarjeta-wrap:hover .tarjeta{
+    display: none;
+}
 
 
+
+/* CONSEJOS */
+
+.wrap2{
+	display: none;
+}
+
+.tarjeta-wrap2{
+	display: none;
+}
+
+.tarjeta2{
+    display: none;
+
+}
+
+.adelante2, .atras2{
+    display: none;
+}
+
+.adelante2{
+    display: none;
+}
+
+.atras2{
+	display: none;
+}
+
+.tarjeta-wrap2:hover .tarjeta2{
+	display: none;
+
+
+
+}
+
+
+
+@media (min-width:360px){
+    
+/* -------------------Difranco SLOGAN------------------------ */
+.doker{
+    height: 200px;
+    width: 300px;
+    margin-top: -730px;
+    margin-left: -42px;
+    overflow: hidden;
+    display: flex;
+    align-items:center;
+}
+.neon-text {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 6px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--color3);
+    padding: 0 0.4rem 0 0.4rem;
+    letter-spacing: 1.2px;
+    animation: text-glow 5s linear infinite;
+ }
+}
+.slogan{
+    font-size: 5px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    margin-left: 6px;
+    margin-top: 2px;   
+}
+
+/* --------------------Productos------------ */
 
 
 
