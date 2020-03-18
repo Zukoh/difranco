@@ -900,7 +900,7 @@ footer{
         background: url(../IMW/Consejos-WebCel--05.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        
+        background-position: center;
         height: 280px;
     }
     #contacto{
@@ -1213,8 +1213,25 @@ color: white;
 
 
 }
+.mobileconsejo{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    
+    flex-wrap: wrap;
+    width: 260px;
+    
+}
+.mobileconsejo img{
+   
+    height: 150px;
+    margin: 5px;
+}
 
-
+}
 
 @media (min-width:360px){
     
