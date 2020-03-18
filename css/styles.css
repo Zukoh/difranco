@@ -861,11 +861,103 @@ footer{
 }
 
 
+/* ********************************************************** VISTAS **************************************************************** */
+
+@media (min-width:300px){
+    
+    /* ------Saque el tablero y puse los botones en el lugar---- */
+    .tablero{
+            display: none;
+    }
+    
+    .icon-Iso-Blanco{
+        z-index: 1000;
+        position: absolute;
+        left: 2px;
+        top: 10px;
+        font-size: 25px;
+        color: rgb(0, 0, 0);    
+    }
+
+    .volante img{
+        height: 35px;
+        z-index: 1000;
+        position: absolute;
+        left: 2px; 
+        top: 50px;
+    }
+    
+    
+    .rueda img{
+        height: 35px;
+        z-index: 1000;
+        position: absolute;
+        left: 2px;
+        top: 100px;
+    }
+    
+    .ubicacion img{
+        height: 35px;
+        z-index: 1000;
+        position: absolute;
+        left: 2px;
+        top: 150px;
+    }
+
+    .iconos{
+        /*display: none;  --Para ocultar iconos.  */
+    }
+
+/* -------------------Difranco SLOGAN------------------------ */
+.doker{
+    height: 200px;
+    width: 300px;
+    margin-top: -690px;
+   margin-left: 5px;
+    overflow: hidden;
+    display: flex;
+    
+    align-items:center;
+}
+.neon-text {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--color3);
+    padding: 0 1rem 0 1rem;
+    letter-spacing: 1.5px;
+    animation: text-glow 5s linear infinite; }
+}
+.slogan{
+    font-size: 8px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    margin-left: 15px;   
+}
+
+/* --------------------Productos------------ */
+
+.title-prod{
+    z-index: 400;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-top: 170px;
+    font-family: 'Orbitron', sans-serif;
+  }
 
 
 
-
-
+  .swiper-container {
+    margin: 0;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 180px;
+   
+  }
 
 
 
