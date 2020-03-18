@@ -708,8 +708,8 @@ a{
 
 
 .contact-container{
-    width: 80%;
-    padding: 20px;
+    width: 95%;
+    padding: 10px;
     margin-top: -10px;
 }
 
@@ -1230,6 +1230,15 @@ color: white;
     height: 150px;
     margin: 5px;
 }
+
+/* -------------------------------------- CONTACTO ---------------------*/
+
+.contact-container{
+    width: 95%;
+    padding: 10px;
+    margin-top: -10px;
+}
+
 
 }
 
