@@ -869,7 +869,8 @@ footer{
         background: url(../IMW/Fondo-01.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        
+        background-position: center;
+        height: 260px;
     }
 
     #productos{
@@ -915,7 +916,11 @@ footer{
     .tablero{
         display: none;
 }
-
+.neumaticas img{
+    height: 115px;
+    margin-top: 155px;
+    margin-left: 195px;
+}
 
 .icon-Iso-Blanco{
     z-index: 1000;
@@ -959,8 +964,8 @@ footer{
 .doker{
 height: 200px;
 width: 300px;
-margin-top: -750px;
-margin-left: -55px;
+margin-top: -230px;
+margin-left: -17px;
 overflow: hidden;
 display: flex;
 align-items:center;
