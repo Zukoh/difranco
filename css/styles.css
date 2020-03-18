@@ -900,8 +900,18 @@ footer{
         
         height: 280px;
     }
+    #contacto{
+        background: black;
+    }
+
+    .mapa{
+        margin-top: 5px;
+    }
     
-    
+    footer{
+        color: white;
+        margin-top: 15px;
+    }
     .tablero{
         display: none;
 }
