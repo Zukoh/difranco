@@ -875,7 +875,7 @@ footer{
 
     #productos{
         background: url(../IMW/Productos---WebCel--02l.jpg);
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
         height: 480px;
