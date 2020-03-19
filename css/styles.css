@@ -919,11 +919,7 @@ footer{
     .tablero{
         display: none;
 }
-.neumaticas img{
-    height: 115px;
-    margin-top: 155px;
-    margin-left: 195px;
-}
+
 
 .icon-Iso-Blanco{
     z-index: 1000;
@@ -965,13 +961,15 @@ footer{
 
 /* -------------------Difranco SLOGAN------------------------ */
 .doker{
-height: 200px;
+height: 150px;
 width: 300px;
-margin-top: -230px;
-margin-left: -17px;
+margin-top: -120px;
+margin-left: -14px;
 overflow: hidden;
 display: flex;
 align-items:center;
+
+
 }
 .neon-text {
 font-family: 'Orbitron', sans-serif;
@@ -980,8 +978,14 @@ font-weight: bold;
 text-align: center;
 color: var(--color3);
 padding: 0 0.4rem 0 0.4rem;
-letter-spacing: 1.2px;
+letter-spacing: 1.1px;
 animation: text-glow 5s linear infinite;
+}
+
+.neumaticas img{
+    height: 75px;
+    margin-top: 135px;
+    margin-left: 235px;
 }
 
 .slogan{
@@ -1185,11 +1189,12 @@ color: white;
 .doker{
     height: 100px;
     width: 200px;
-    margin-top: -180px;
-    margin-left: 55px;
+    margin-top: -120px;
+    margin-left: 25px;
     overflow: hidden;
     display: flex;
     align-items:center;
+   
     
 }
 .neon-text {
@@ -1214,7 +1219,7 @@ color: white;
 
 .neumaticas img{
     height: 115px;
-    margin-top: 160px;
+    margin-top: 120px;
     margin-left: 230px;
 }
 
@@ -1264,8 +1269,9 @@ color: white;
     .doker{
         height: 100px;
         width: 245px;
-        margin-top: -180px;
-        margin-left: 55px;  
+        margin-top: -115px;
+        margin-left: 35px;  
+       
     }
     .neon-text {
         font-family: 'Orbitron', sans-serif;
@@ -1288,8 +1294,8 @@ color: white;
     }
     
     .neumaticas img{
-        height: 115px;
-        margin-top: 160px;
+        height: 105px;
+        margin-top: 130px;
         margin-left: 280px;
     }
     
@@ -1313,6 +1319,126 @@ color: white;
 
     
     }
+
+    @media (min-width:495px){
+        .doker{
+            height: 150px;
+            width: 300px;
+            margin-top: -150px;
+            margin-left: 34px;
+            overflow: hidden;
+            display: flex;
+            align-items:center;
+            
+            
+            }
+            .neon-text {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 10px;
+            font-weight: bold;
+            text-align: center;
+            color: var(--color3);
+            padding: 0 0.4rem 0 0.4rem;
+            letter-spacing: 1.1px;
+            animation: text-glow 5s linear infinite;
+            }
+            
+            .neumaticas img{
+                height: 125px;
+                margin-top: 135px;
+                margin-left: 355px;
+            }
+            
+            .slogan{
+            font-size: 10px;
+            color: white;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: bold;
+            margin-left: 6px;
+            margin-top: 2px;   
+            }
+
+            #servicios{
+                height: 400px;
+            }
+            
+    }
+
+    @media (min-width:515px){
+        .doker{
+            height: 150px;
+            width: 300px;
+            margin-top: -150px;
+            margin-left: 84px;
+            overflow: hidden;
+            display: flex;
+            align-items:center;
+            
+            
+            }
+            
+            .neumaticas img{
+                height: 145px;
+                margin-top: 135px;
+                margin-left: 405px;
+            }
+        
+            
+    }
+
+    @media (min-width:615px){
+        .doker{
+            height: 150px;
+            width: 300px;
+            margin-top: -165px;
+            margin-left: 104px;
+            overflow: hidden;
+            display: flex;
+            align-items:center;
+           
+            
+            }
+            #home{
+                height: 350px;
+            }
+            .neumaticas img{
+                height: 145px;
+                margin-top: 170px;
+                margin-left: 455px;
+            }
+        
+            
+    }
+
+    @media (min-width:705px){
+        .doker{
+            height: 150px;
+            width: 300px;
+            margin-top: -165px;
+            margin-left: 184px;
+            overflow: hidden;
+            display: flex;
+            align-items:center;
+           
+            
+            }
+            #home{
+                height: 350px;
+            }
+            .neumaticas img{
+                height: 155px;
+                margin-top: 195px;
+                margin-left: 515px;
+            }
+        
+            
+    }
+
+    
+  
+
+
+
 
 /* ******************************************************************************************************************** */
     @media (min-width:768px){
@@ -1514,11 +1640,7 @@ color: white;
             margin-top: 15px;
         }
      
-    .neumaticas img{
-        height: 375px;
-        margin-top: 465px;
-        margin-left: 375px;
-    }
+   
     
     .botones{
         display: flex;
@@ -1613,16 +1735,22 @@ color: white;
     .doker{
     height: 300px;
     width: 600px;
-    margin-top: -565px;
-    margin-left: 20px;
+    margin-top: -300px;
+    margin-left: -40px;
     overflow: hidden;
     display: flex;
     align-items:center;
    
     }
+
+    .neumaticas img{
+        height: 245px;
+        margin-top: 375px;
+        margin-left: 525px;
+    }
     .neon-text {
     font-family: 'Orbitron', sans-serif;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     color: var(--color3);
@@ -1856,6 +1984,47 @@ color: white;
     
     }
 
+
+    @media (min-width:900px){
+        .doker{
+            height: 150px;
+            width: 500px;
+            margin-top: -185px;
+            margin-left: 154px;
+            overflow: hidden;
+            display: flex;
+            align-items:center;
+           
+            
+            }
+            #home{
+                height: 600px;
+            }
+            .neumaticas img{
+                height: 185px;
+                margin-top: 295px;
+                margin-left: 700px;
+            }
+        #servicios{
+            height: 500px;
+        }
+            
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     @media (min-width:1024px){
         #home{
             height:900px;
@@ -2053,11 +2222,6 @@ color: white;
             margin-top: 15px;
         }
      
-    .neumaticas img{
-        height: 405px;
-        margin-top: 555px;
-        margin-left: 600px;
-    }
     
     .botones{
         display: flex;
@@ -2152,14 +2316,20 @@ color: white;
     .doker{
     height: 300px;
     width: 600px;
-    margin-top: -635px;
-    margin-left: 140px;
+    margin-top: -355px;
+    margin-left: 50px;
     overflow: hidden;
     display: flex;
     align-items:center;
-    
    
     }
+
+    .neumaticas img{
+        height: 325px;
+        margin-top: 555px;
+        margin-left: 660px;
+    }
+    
     .neon-text {
     font-family: 'Orbitron', sans-serif;
     font-size: 26px;
@@ -2405,13 +2575,340 @@ color: white;
     }
 
 
+    @media (min-width:1100px){
+        #home{
+            height:900px;
+        }
+
+        #servicios{
+            height: 700px;
+        }
+        .doker{
+            height: 300px;
+            width: 600px;
+            margin-top: -355px;
+            margin-left: 130px;
+            overflow: hidden;
+            display: flex;
+            align-items:center;
+           
+            }
+        
+            .neumaticas img{
+                height: 325px;
+                margin-top: 555px;
+                margin-left: 770px;
+            }
+            
+            .neon-text {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 26px;
+            font-weight: bold;
+            text-align: center;
+            color: var(--color3);
+            padding: 0 0.4rem 0 0.4rem;
+            letter-spacing: 1.2px;
+            animation: text-glow 5s linear infinite;
+            }
+            
+            .slogan{
+            font-size: 20px;
+            color: white;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: bold;
+            margin-left: 16px;
+            margin-top: 2px;   
+            }
+
+        }
+
+        @media (min-width:1200px){
+            #home{
+                height:900px;
+            }
+    
+    
+            .doker{
+                height: 300px;
+                width: 600px;
+                margin-top: -355px;
+                margin-left: 230px;
+                overflow: hidden;
+                display: flex;
+                align-items:center;
+               
+                }
+            
+                .neumaticas img{
+                    height: 325px;
+                    margin-top: 555px;
+                    margin-left: 860px;
+                }
+                
+                .neon-text {
+                font-family: 'Orbitron', sans-serif;
+                font-size: 26px;
+                font-weight: bold;
+                text-align: center;
+                color: var(--color3);
+                padding: 0 0.4rem 0 0.4rem;
+                letter-spacing: 1.2px;
+                animation: text-glow 5s linear infinite;
+                }
+                
+                .slogan{
+                font-size: 20px;
+                color: white;
+                font-family: 'Orbitron', sans-serif;
+                font-weight: bold;
+                margin-left: 16px;
+                margin-top: 2px;   
+                }
+    
+            }
+
+            @media (min-width:1350px){
+                #home{
+                    height:900px;
+                }
+                
+                #servicios{
+                    height: 750px;
+                }
+        
+                .doker{
+                    height: 300px;
+                    width: 710px;
+                    margin-top: -395px;
+                    margin-left: 230px;
+                    overflow: hidden;
+                    display: flex;
+                    align-items:center;
+                    
+                    }
+                
+                    .neumaticas img{
+                        height: 395px;
+                        margin-top: 510px;
+                        margin-left: 950px;
+                    }
+                    
+                    .neon-text {
+                    font-family: 'Orbitron', sans-serif;
+                    font-size: 30px;
+                    font-weight: bold;
+                    text-align: center;
+                    color: var(--color3);
+                    padding: 0 0.4rem 0 0.4rem;
+                    letter-spacing: 1.2px;
+                    animation: text-glow 5s linear infinite;
+                    }
+                    
+                    .slogan{
+                    font-size: 28px;
+                    color: white;
+                    font-family: 'Orbitron', sans-serif;
+                    font-weight: bold;
+                    margin-left: 16px;
+                    margin-top: 2px;   
+                    }
+        
+                }
+    
+                @media (min-width:1450px){
+                    #home{
+                        height:900px;
+                    }
+                    
+                    #servicios{
+                        height: 750px;
+                    }
+            
+                    .doker{
+                        height: 300px;
+                        width: 710px;
+                        margin-top: -395px;
+                        margin-left: 290px;
+                        overflow: hidden;
+                        display: flex;
+                        align-items:center;
+                        
+                        }
+                    
+                        .neumaticas img{
+                            height: 395px;
+                            margin-top: 510px;
+                            margin-left: 1050px;
+                        }
+                        
+                        .neon-text {
+                        font-family: 'Orbitron', sans-serif;
+                        font-size: 30px;
+                        font-weight: bold;
+                        text-align: center;
+                        color: var(--color3);
+                        padding: 0 0.4rem 0 0.4rem;
+                        letter-spacing: 1.2px;
+                        animation: text-glow 5s linear infinite;
+                        }
+                        
+                        .slogan{
+                        font-size: 28px;
+                        color: white;
+                        font-family: 'Orbitron', sans-serif;
+                        font-weight: bold;
+                        margin-left: 16px;
+                        margin-top: 2px;   
+                        }
+            
+                    }
+
+                    @media (min-width:1600px){
+                        #home{
+                            height:900px;
+                        }
+                        
+                        #servicios{
+                            height: 830px;
+                        }
+                
+                        .doker{
+                            height: 300px;
+                            width: 710px;
+                            margin-top: -395px;
+                            margin-left: 390px;
+                            overflow: hidden;
+                            display: flex;
+                            align-items:center;
+                            
+                            }
+                        
+                            .neumaticas img{
+                                height: 395px;
+                                margin-top: 510px;
+                                margin-left: 1200px;
+                            }
+                            
+                            .neon-text {
+                            font-family: 'Orbitron', sans-serif;
+                            font-size: 30px;
+                            font-weight: bold;
+                            text-align: center;
+                            color: var(--color3);
+                            padding: 0 0.4rem 0 0.4rem;
+                            letter-spacing: 1.2px;
+                            animation: text-glow 5s linear infinite;
+                            }
+                            
+                            .slogan{
+                            font-size: 28px;
+                            color: white;
+                            font-family: 'Orbitron', sans-serif;
+                            font-weight: bold;
+                            margin-left: 16px;
+                            margin-top: 2px;   
+                            }
+                
+                        }
+
+                        @media (min-width:1750px){
+                            #home{
+                                height:900px;
+                            }
+                            
+                            #servicios{
+                                height: 850px;
+                            }
+                    
+                            .doker{
+                                height: 300px;
+                                width: 710px;
+                                margin-top: -395px;
+                                margin-left: 490px;
+                                overflow: hidden;
+                                display: flex;
+                                align-items:center;
+                               
+                                }
+                            
+                                .neumaticas img{
+                                    height: 395px;
+                                    margin-top: 510px;
+                                    margin-left: 1320px;
+                                }
+                                
+                                .neon-text {
+                                font-family: 'Orbitron', sans-serif;
+                                font-size: 30px;
+                                font-weight: bold;
+                                text-align: center;
+                                color: var(--color3);
+                                padding: 0 0.4rem 0 0.4rem;
+                                letter-spacing: 1.2px;
+                                animation: text-glow 5s linear infinite;
+                                }
+                                
+                                .slogan{
+                                font-size: 28px;
+                                color: white;
+                                font-family: 'Orbitron', sans-serif;
+                                font-weight: bold;
+                                margin-left: 16px;
+                                margin-top: 2px;   
+                                }
+                    
+                            }
 
 
-
-
-
-
-
+                            @media (min-width:1850px){
+                                #home{
+                                    height:1250px;
+                                }
+                                
+                                #servicios{
+                                    height: 900px;
+                                }
+                        
+                                .doker{
+                                    height: 300px;
+                                    width: 750px;
+                                    margin-top: -395px;
+                                    margin-left: 490px;
+                                    overflow: hidden;
+                                    display: flex;
+                                    align-items:center;
+                                    
+                                    }
+                                
+                                    .neumaticas img{
+                                        height: 395px;
+                                        margin-top: 590px;
+                                        margin-left: 1430px;
+                                    }
+                                    
+                                    .neon-text {
+                                    font-family: 'Orbitron', sans-serif;
+                                    font-size: 34px;
+                                    font-weight: bold;
+                                    text-align: center;
+                                    color: var(--color3);
+                                    padding: 0 0.4rem 0 0.4rem;
+                                    letter-spacing: 1.2px;
+                                    animation: text-glow 5s linear infinite;
+                                    }
+                                    
+                                    .slogan{
+                                    font-size: 32px;
+                                    color: white;
+                                    font-family: 'Orbitron', sans-serif;
+                                    font-weight: bold;
+                                    margin-left: 16px;
+                                    margin-top: 2px;   
+                                    }
+                        
+                                }
+    
+    
 
 
 
