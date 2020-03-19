@@ -1145,7 +1145,9 @@ color: white;
 
 /* -----------------CONSEJOS----------------- */
 
-
+.wrap2{
+    display: none;
+}
 
 
 .mobileconsejo{
