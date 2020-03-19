@@ -894,6 +894,7 @@ footer{
         background-size: cover;
         background-position: center;
         height: 520px;
+
     }
 
     #consejos{
@@ -1062,11 +1063,11 @@ display: none;
   
   .neon-text2 {
     font-family: 'Orbitron', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
     color: black;
-    padding: 0 0.5rem 0 0.5rem;
+    padding: 0 0.9rem 0 0.9rem;
     letter-spacing: 1.2px;
     overflow: hidden;
     margin-bottom:30px;
@@ -1074,7 +1075,7 @@ display: none;
   
   .neon-wrapper2{
     border: solid 2px var(--color3);
-    margin-top: -10px;
+    margin-top: 10px;
     border-radius: 10px;
     animation: border-glow 5s linear forwards; 
     overflow: hidden;
@@ -1086,10 +1087,10 @@ a{
     color: inherit;
 }
 .meli img{
-        height: 45px;
-        width: 45px;
+        height: 40px;
+        width: 40px;
         margin-top: 22px;
-        margin-bottom: -11px;
+        margin-bottom: -14px;
         margin-left: 22px;
         overflow: hidden;
 
@@ -1113,48 +1114,10 @@ color: white;
 
 
 /* ---------------------------- HISTORIA ----------------------------- */
-
 .wrap{
-   display: none;
-}
-.cartel{
-  display: none;
-    
-}
-
-.tarjeta-wrap{
-	display: none;
-}
-
-.tarjeta{
     display: none;
 }
 
-.adelante, .atras{
-    display: none;
-}
-
-.adelante{
-    display: none;
-}
-
-.atras{
-    display: none;
-}
-
-.atras h6{
-    display: none;
-}
-
-
-.logos{
-    display: none;
-   
-}
-
-.tarjeta-wrap:hover .tarjeta{
-    display: none;
-}
 
 
 
@@ -1180,39 +1143,11 @@ color: white;
 
 
 
-/* CONSEJOS */
-
-.wrap2{
-	display: none;
-}
-
-.tarjeta-wrap2{
-	display: none;
-}
-
-.tarjeta2{
-    display: none;
-
-}
-
-.adelante2, .atras2{
-    display: none;
-}
-
-.adelante2{
-    display: none;
-}
-
-.atras2{
-	display: none;
-}
-
-.tarjeta-wrap2:hover .tarjeta2{
-	display: none;
+/* -----------------CONSEJOS----------------- */
 
 
 
-}
+
 .mobileconsejo{
     margin-right: auto;
     margin-left: auto;
@@ -1241,18 +1176,19 @@ color: white;
 
 
 }
-
-@media (min-width:360px){
+/* ******************************************************************************************************* */
+@media (min-width:359px){
     
 /* -------------------Difranco SLOGAN------------------------ */
 .doker{
-    height: 200px;
-    width: 300px;
-    margin-top: -730px;
-    margin-left: -42px;
+    height: 100px;
+    width: 200px;
+    margin-top: -180px;
+    margin-left: 55px;
     overflow: hidden;
     display: flex;
     align-items:center;
+    
 }
 .neon-text {
     font-family: 'Orbitron', sans-serif;
@@ -1264,7 +1200,7 @@ color: white;
     letter-spacing: 1.2px;
     animation: text-glow 5s linear infinite;
  }
-}
+
 .slogan{
     font-size: 5px;
     color: white;
@@ -1274,9 +1210,1197 @@ color: white;
     margin-top: 2px;   
 }
 
+.neumaticas img{
+    height: 115px;
+    margin-top: 160px;
+    margin-left: 230px;
+}
+
+
+
+
 /* --------------------Productos------------ */
 
 
+.neon-wrapper2{
+    margin-top: 10px;
+}
+
+/* ----------------- HISTORIA ------------------- */
+
+.aver{
+   
+    height: 80%;
+    width: 90%;
+    color: white;
+   
+    flex-wrap: wrap;
+    margin-top: -65px;
+    letter-spacing: 1.3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pinfo {
+    font-size: 17px;
+    opacity: 0.5;
+}
+
+
+
+}
+@media (min-width:375px){
+    .neumaticas img{
+        
+        margin-top: 160px;
+        margin-left: 250px;
+    }
+}
+
+@media (min-width:411px){
+    
+    /* -------------------Difranco SLOGAN------------------------ */
+    .doker{
+        height: 100px;
+        width: 245px;
+        margin-top: -180px;
+        margin-left: 55px;  
+    }
+    .neon-text {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 7px;
+        font-weight: bold;
+        text-align: center;
+        color: var(--color3);
+        padding: 0 0.4rem 0 0.4rem;
+        letter-spacing: 1.2px;
+        animation: text-glow 5s linear infinite;
+     }
+    
+    .slogan{
+        font-size: 7px;
+        color: white;
+        font-family: 'Orbitron', sans-serif;
+        font-weight: bold;
+        margin-left: 6px;
+        margin-top: 2px;   
+    }
+    
+    .neumaticas img{
+        height: 115px;
+        margin-top: 160px;
+        margin-left: 280px;
+    }
+    
+    
+    
+    
+    /* --------------------Productos------------ */
+    
+    
+    .neon-wrapper2{
+        margin-top: 10px;
+    }
+    
+  
+    
+    /* -------------------------- SERVICIOS ---------------------- */
+    
+    #servicios{
+        height: 210px;
+    }
+
+    
+    }
+
+/* ******************************************************************************************************************** */
+    @media (min-width:768px){
+        #home{
+            background: url(../IMW/Fondo-01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height:800px;
+        }
+    
+        #productos{
+            background: url(../img/2-FondoProductos.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+        }
+    
+        #servicios{
+            background: url(../IMW/Servicios--WebCel--03.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;
+        }
+    
+        
+        #historia{
+   
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             background: url(../img/4-FondoHistoria.jpg);
+            height: 100vh;
+        }
+        
+      
+            
+
+
+
+        .wrap{
+            width: 700px;
+            height: 700px;
+            border-radius: 50%;
+            margin-bottom: 130px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: center;
+        }
+        .cartel{
+            font-size: 36px;
+            color: #fff;
+            font-family: 'Orbitron';
+            letter-spacing: 2.5px;
+            text-shadow: 0 0 20px #563fd8;
+            margin-top: 210px;
+            margin-left: 125px;   
+            display: inline-block;
+            
+        }
+        
+        .tarjeta-wrap{
+            margin: 10px;
+           
+            perspective: 800;
+        }
+        
+        .tarjeta{
+            width: 700px;
+            height: 700px;
+           
+            margin-left: 20px;
+            border-radius: 50%;
+            
+            position: relative;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            -webkit-transition: .7s ease;
+            transition: .9s ease;
+            -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+            box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+        
+        }
+        
+        .adelante, .atras{
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+        
+        .adelante{
+            width: 100%;
+            background: url(../img/4-Circulo-haciendo-historia.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .atras{
+            -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+        
+            padding: 15px;
+            
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            text-align: center;
+            
+            color: black;
+            font-family: "Roboto";
+            background: white;
+           
+        }
+        
+        .atras h6{
+            font-size: 18px;
+            margin-top: 120px;
+            margin-left: 90px;
+            margin-right: 90px;
+            text-decoration: none;
+            font-family: 'Orbitron', sans-serif;
+        }
+        
+        .atras h5{
+            font-size: 18px;
+            margin-top: 20px;
+            margin-left: 90px;
+            margin-right: 90px;
+            text-decoration: none;
+            font-family: 'Orbitron', sans-serif;
+        }
+        
+        .atras p{
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-left: 90px;
+            margin-right: 90px;
+            font-family: 'Orbitron', sans-serif;
+            
+        }
+        .logos{
+            display: flex;
+            width: 430px;
+            
+            margin-left: 130px;
+            margin-top: 40px;
+            justify-content: space-between;
+           
+        }
+        
+        .logos img{
+            height: 100px;
+            width: 100px;
+            
+        }
+        
+        .logos  .cargosa{
+            width: 150px;
+        }
+        
+        .tarjeta-wrap:hover .tarjeta{
+            -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+        }
+        
+    
+        #consejos{
+            background: url(../IMW/Consejos-WebCel--05.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 480px;
+        }
+        #contacto{
+            background: black;
+        }
+    
+        .mapa{
+            margin-top: 5px;
+        }
+        
+        footer{
+            color: white;
+            margin-top: 15px;
+        }
+     
+    .neumaticas img{
+        height: 375px;
+        margin-top: 465px;
+        margin-left: 375px;
+    }
+    
+    .botones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:30px ;
+        position: relative;
+        border-top: 1px solid rgb(65, 64, 64);
+        border-bottom: 1px solid rgb(53, 53, 53);
+        border-right: 1px solid rgb(53, 53, 53);
+        border-left: 1px solid rgb(70, 68, 68);
+        width: 340px;
+        height: 40px;
+        background-color: rgb(70, 67, 67);
+        box-shadow: inset -200px 163px 300px -200px rgb(68, 67, 68);
+        border-radius: 10px 10px 10px 10px;
+        overflow-y: hidden;
+    }
+    
+    
+    .tablero{
+        height: 95px;
+        background-color: rgb(41, 38, 38);
+        width: 400px;
+        border-radius: 0 0 30px 30px;
+        display: flex;
+        margin: auto;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 99999999999999999999;
+    }
+    li img{
+        padding: 1px;
+        margin-top: 2px;
+        height: 40px;
+        overflow-y: hidden;
+    }
+    .check{
+      z-index: 1000;
+      position: relative;
+      left: -50px;
+      height: 20px;
+      width: 70px;
+      
+    }
+    
+    .check:checked ~ .doker{
+        background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgb(77, 160, 238) 100%); 
+    }
+    
+    .icon-Iso-Blanco{
+        z-index: 1000;
+        position: absolute;
+        left: 30px;
+        top: 10px;
+        font-size: 20px;
+        color: rgb(43, 42, 42);    
+    }
+    
+    .volante img{
+        height: 30px;
+        z-index: 1000;
+        position: absolute;
+        left: 195px; 
+        top: 4px;
+    }
+    
+    
+    .rueda img{
+        height: 30px;
+        z-index: 1000;
+        position: absolute;
+        left: 115px;
+        top: 4px;
+    }
+    
+    .ubicacion img{
+        height: 30px;
+        z-index: 1000;
+        position: absolute;
+        left: 285px;
+        top: 6px;
+    }
+    
+    .iconos{
+        display: none;  
+    }
+    
+    /* -------------------Difranco SLOGAN------------------------ */
+    .doker{
+    height: 300px;
+    width: 600px;
+    margin-top: -565px;
+    margin-left: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items:center;
+   
+    }
+    .neon-text {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--color3);
+    padding: 0 0.4rem 0 0.4rem;
+    letter-spacing: 1.2px;
+    animation: text-glow 5s linear infinite;
+    }
+    
+    .slogan{
+    font-size: 20px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: 2px;   
+    }
+    
+    /* --------------------Productos------------ */
+    
+    #productos {
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        
+        margin: 0;
+        padding: 0;
+        
+      }
+    
+      .title-prod{
+        z-index: 400;
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        margin-top: 100px;
+        font-family: 'Orbitron', sans-serif;
+        display: block;
+
+    }
+      
+    
+    
+    
+      .swiper-container {
+        margin: 0;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 180px;
+       
+      }
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 220px;
+        height: 370px;
+        background:rgb(8, 8, 8);
+        border-radius: 8px;
+        overflow-y: hidden;
+      }
+    
+    
+    
+    .swiper-slide .imgbx{
+        width: 100%;
+        height: 300px;
+        overflow-y: hidden; 
+    }
+    
+    .swiper-slide .imgbx img{
+        width: 100%;
+    }
+    
+    .swiper-slide .detalles {
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    
+    .swiper-slide .detalles h3 {
+        margin: 0;
+        
+        padding: 0;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    
+    
+    
+    
+    .wrapper2 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        height: 180px;
+        width: 100%;
+        margin-left: 15px;
+        overflow: hidden;
+        
+        background-size: cover; }
+      
+      .neon-text2 {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: var(--color3);
+        padding: 0 1.2rem 0 1.2rem;
+        letter-spacing: 1.5px;
+        overflow: hidden;
+        margin-bottom:30px;
+      }
+      
+      .neon-wrapper2{
+        border: solid 2px var(--color3);
+        margin-top: 20px;
+        border-radius: 10px;
+        animation: border-glow 5s linear forwards; 
+        overflow: hidden;
+    }
+    a{
+        text-decoration: none;
+        list-style: none;
+        color: inherit;
+    }
+    .meli img{
+            height: 45px;
+            width: 45px;
+            margin-top: 22px;
+            margin-bottom: -11px;
+            margin-left: 22px;
+            overflow: hidden;
+    
+    }
+    
+    .neon-wrapper2:hover{
+        cursor: pointer;
+        background: black; 
+        color: white;
+    }
+    
+    
+    
+    
+    
+    /* ---------------------------- HISTORIA ----------------------------- */
+    .aver{
+        display: none;
+    }
+   
+    
+
+
+
+
+    
+    
+    /* CONSEJOS */
+    
+
+    
+    .adelante2, .atras2{
+        display: none;
+    }
+    
+    .adelante2{
+        display: none;
+    }
+    
+    .atras2{
+        display: none;
+    }
+    
+    .tarjeta-wrap2:hover .tarjeta2{
+        display: none;
+    
+    
+    
+    }
+    .mobileconsejo{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        height: 180px;
+        
+        flex-wrap: wrap;
+        width: 260px;
+        
+    }
+    .mobileconsejo img{
+       
+        height: 150px;
+        margin: 5px;
+    }
+    
+
+
+/* --------------------------------CONSEJOS -----------------------*/
+.mobileconsejo{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    
+    flex-wrap: wrap;
+    width: 720px;
+    
+}
+.mobileconsejo img{
+   
+    height: 350px;
+    margin: 5px;
+}
+
+
+
+
+
+
+    /* -------------------------------------- CONTACTO ---------------------*/
+    
+    .contact-container{
+        width: 95%;
+        padding: 10px;
+        margin-top: -10px;
+    }
+    
+    
+    }
+
+    @media (min-width:1024px){
+        #home{
+            height:900px;
+        }
+    
+        #productos{
+            background: url(../img/2-FondoProductos.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+        }
+    
+        #servicios{
+            background: url(../IMW/Servicios--WebCel--03.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 520px;
+        }
+    
+        
+        #historia{
+   
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            background-position: center;
+            background-repeat: no-repeat;
+            align-items: center;
+             
+            height: 100vh;
+        }
+        
+      
+            
+
+
+
+        .wrap{
+            width: 700px;
+            height: 700px;
+            border-radius: 50%;
+            margin-bottom: 130px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: center;
+        }
+        .cartel{
+            font-size: 36px;
+            color: #fff;
+            font-family: 'Orbitron';
+            letter-spacing: 2.5px;
+            text-shadow: 0 0 20px #563fd8;
+            margin-top: 210px;
+            margin-left: 125px;   
+            display: inline-block;
+            
+        }
+        
+        .tarjeta-wrap{
+            margin: 10px;
+           
+            perspective: 800;
+        }
+        
+        .tarjeta{
+            width: 700px;
+            height: 700px;
+           
+            margin-left: 20px;
+            border-radius: 50%;
+            
+            position: relative;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            -webkit-transition: .7s ease;
+            transition: .9s ease;
+            -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+            box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+        
+        }
+        
+        .adelante, .atras{
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+        
+        .adelante{
+            width: 100%;
+            background: url(../img/4-Circulo-haciendo-historia.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .atras{
+            -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+        
+            padding: 15px;
+            
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            text-align: center;
+            
+            color: black;
+            font-family: "Roboto";
+            background: white;
+           
+        }
+        
+        .atras h6{
+            font-size: 18px;
+            margin-top: 120px;
+            margin-left: 90px;
+            margin-right: 90px;
+            text-decoration: none;
+            font-family: 'Orbitron', sans-serif;
+        }
+        
+        .atras h5{
+            font-size: 18px;
+            margin-top: 20px;
+            margin-left: 90px;
+            margin-right: 90px;
+            text-decoration: none;
+            font-family: 'Orbitron', sans-serif;
+        }
+        
+        .atras p{
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-left: 90px;
+            margin-right: 90px;
+            font-family: 'Orbitron', sans-serif;
+            
+        }
+        .logos{
+            display: flex;
+            width: 430px;
+            
+            margin-left: 130px;
+            margin-top: 40px;
+            justify-content: space-between;
+           
+        }
+        
+        .logos img{
+            height: 100px;
+            width: 100px;
+            
+        }
+        
+        .logos  .cargosa{
+            width: 150px;
+        }
+        
+        .tarjeta-wrap:hover .tarjeta{
+            -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+        }
+        
+    
+        #consejos{
+            background: url(../IMW/Consejos-WebCel--05.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 480px;
+        }
+        #contacto{
+            background: black;
+        }
+    
+        .mapa{
+            margin-top: 5px;
+        }
+        
+        footer{
+            color: white;
+            margin-top: 15px;
+        }
+     
+    .neumaticas img{
+        height: 405px;
+        margin-top: 555px;
+        margin-left: 600px;
+    }
+    
+    .botones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:30px ;
+        position: relative;
+        border-top: 1px solid rgb(65, 64, 64);
+        border-bottom: 1px solid rgb(53, 53, 53);
+        border-right: 1px solid rgb(53, 53, 53);
+        border-left: 1px solid rgb(70, 68, 68);
+        width: 340px;
+        height: 40px;
+        background-color: rgb(70, 67, 67);
+        box-shadow: inset -200px 163px 300px -200px rgb(68, 67, 68);
+        border-radius: 10px 10px 10px 10px;
+        overflow-y: hidden;
+    }
+    
+    
+    .tablero{
+        height: 95px;
+        background-color: rgb(41, 38, 38);
+        width: 400px;
+        border-radius: 0 0 30px 30px;
+        display: flex;
+        margin: auto;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 99999999999999999999;
+    }
+    li img{
+        padding: 1px;
+        margin-top: 2px;
+        height: 40px;
+        overflow-y: hidden;
+    }
+    .check{
+      z-index: 1000;
+      position: relative;
+      left: -50px;
+      height: 20px;
+      width: 70px;
+      
+    }
+    
+    .check:checked ~ .doker{
+        background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgb(77, 160, 238) 100%); 
+    }
+    
+    .icon-Iso-Blanco{
+        z-index: 1000;
+        position: absolute;
+        left: 30px;
+        top: 10px;
+        font-size: 20px;
+        color: rgb(43, 42, 42);    
+    }
+    
+    .volante img{
+        height: 30px;
+        z-index: 1000;
+        position: absolute;
+        left: 195px; 
+        top: 4px;
+    }
+    
+    
+    .rueda img{
+        height: 30px;
+        z-index: 1000;
+        position: absolute;
+        left: 115px;
+        top: 4px;
+    }
+    
+    .ubicacion img{
+        height: 30px;
+        z-index: 1000;
+        position: absolute;
+        left: 285px;
+        top: 6px;
+    }
+    
+    .iconos{
+        display: none;  
+    }
+    
+    /* -------------------Difranco SLOGAN------------------------ */
+    .doker{
+    height: 300px;
+    width: 600px;
+    margin-top: -635px;
+    margin-left: 140px;
+    overflow: hidden;
+    display: flex;
+    align-items:center;
+    
+   
+    }
+    .neon-text {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--color3);
+    padding: 0 0.4rem 0 0.4rem;
+    letter-spacing: 1.2px;
+    animation: text-glow 5s linear infinite;
+    }
+    
+    .slogan{
+    font-size: 20px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: 2px;   
+    }
+    
+    /* --------------------Productos------------ */
+    
+    #productos {
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        
+        margin: 0;
+        padding: 0;
+        
+      }
+    
+      .title-prod{
+        z-index: 400;
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        margin-top: 100px;
+        font-family: 'Orbitron', sans-serif;
+        display: block;
+
+    }
+      
+    
+    
+    
+      .swiper-container {
+        margin: 0;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 180px;
+       
+      }
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 220px;
+        height: 370px;
+        background:rgb(8, 8, 8);
+        border-radius: 8px;
+        overflow-y: hidden;
+      }
+    
+    
+    
+    .swiper-slide .imgbx{
+        width: 100%;
+        height: 300px;
+        overflow-y: hidden; 
+    }
+    
+    .swiper-slide .imgbx img{
+        width: 100%;
+    }
+    
+    .swiper-slide .detalles {
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    
+    .swiper-slide .detalles h3 {
+        margin: 0;
+        
+        padding: 0;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    
+    
+    
+    
+    .wrapper2 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        height: 180px;
+        width: 100%;
+        margin-left: 15px;
+        overflow: hidden;
+        
+        background-size: cover; }
+      
+      .neon-text2 {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: var(--color3);
+        padding: 0 1.2rem 0 1.2rem;
+        letter-spacing: 1.5px;
+        overflow: hidden;
+        margin-bottom:30px;
+      }
+      
+      .neon-wrapper2{
+        border: solid 2px var(--color3);
+        margin-top: 20px;
+        border-radius: 10px;
+        animation: border-glow 5s linear forwards; 
+        overflow: hidden;
+    }
+    a{
+        text-decoration: none;
+        list-style: none;
+        color: inherit;
+    }
+    .meli img{
+            height: 45px;
+            width: 45px;
+            margin-top: 22px;
+            margin-bottom: -11px;
+            margin-left: 22px;
+            overflow: hidden;
+    
+    }
+    
+    .neon-wrapper2:hover{
+        cursor: pointer;
+        background: black; 
+        color: white;
+    }
+    
+    
+    
+    
+    
+    /* ---------------------------- HISTORIA ----------------------------- */
+    .aver{
+        display: none;
+    }
+   
+    
+
+
+
+
+    
+    
+    /* CONSEJOS */
+    
+    .wrap2{
+        
+    }
+    
+    .tarjeta-wrap2{
+        
+    }
+    
+    .tarjeta2{
+        
+    
+    }
+    
+    .adelante2, .atras2{
+        display: none;
+    }
+    
+    .adelante2{
+        display: none;
+    }
+    
+    .atras2{
+        display: none;
+    }
+    
+    .tarjeta-wrap2:hover .tarjeta2{
+        display: none;
+    
+    
+    
+    }
+    .mobileconsejo{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        height: 180px;
+        
+        flex-wrap: wrap;
+        width: 260px;
+        
+    }
+    .mobileconsejo img{
+       
+        height: 150px;
+        margin: 5px;
+    }
+    
+
+
+/* --------------------------------CONSEJOS -----------------------*/
+.mobileconsejo{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    
+    flex-wrap: wrap;
+    width: 720px;
+    
+}
+.mobileconsejo img{
+   
+    height: 350px;
+    margin: 5px;
+}
+
+
+
+
+
+
+    /* -------------------------------------- CONTACTO ---------------------*/
+    
+    .contact-container{
+        width: 95%;
+        padding: 10px;
+        margin-top: -10px;
+    }
 
 
 
@@ -1291,6 +2415,18 @@ color: white;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+    
 /********************************* CHRISTIAN PROBA ACAAAA  *************************************************************************** */
 /*
 #contacto{
