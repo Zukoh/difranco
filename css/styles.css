@@ -875,10 +875,10 @@ footer{
 
     #productos{
         background: url(../IMW/Productos---WebCel--02l.jpg);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 480px;
+        height: 455px;
     }
 
     #servicios{
